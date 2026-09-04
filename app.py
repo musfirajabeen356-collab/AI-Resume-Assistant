@@ -23,7 +23,7 @@ st.caption("Upload a resume, get an ATS-style score, and receive actionable impr
 # -----------------------------
 # Configuration
 # -----------------------------
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
 
 def get_api_key() -> str:
